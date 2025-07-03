@@ -7,11 +7,7 @@ public class task2_julyConstructor3 {
        s1.login();
        s1.accessAdminPanel();
     }
-   // Create a class User with a method login().
-   // Extend it with a class AdminUser that adds a method accessAdminPanel().
-  //  Then create a SuperAdmin class that extends AdminUser and adds a method shutdownSystem().
 
-   // Use an object of SuperAdmin to call all three methods.
 }
 
 class User{
@@ -33,5 +29,4 @@ class User{
     {
         System.out.println(" shut down system");
     }
-
-}
+    }
